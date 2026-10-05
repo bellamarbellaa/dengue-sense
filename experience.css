@@ -29,3 +29,10 @@
 .login-form-card{background:linear-gradient(145deg,#ffffffb8,#ffffff85);backdrop-filter:blur(22px) saturate(110%);-webkit-backdrop-filter:blur(22px) saturate(110%)}
 .login-brand>span{color:#253e51}.spread-card{background:linear-gradient(145deg,#ffffffd4,#ffffffa6)}
 @media(max-width:600px){.login-screen{background-position:40% center;background-attachment:scroll;background-image:linear-gradient(#f3f6f2a8,#f3f6f278),url('assets/login-community-background.png')}}
+
+.login-screen{background-image:linear-gradient(90deg,#f4f1f7a6,#f1edf448 48%,#eef0f42b),url('assets/login-asean-background.png');background-position:center;background-size:100% 100%}
+.login-form-card{background:linear-gradient(135deg,#fffafac2,#e9e8f39c);border-color:#ffffffdd;box-shadow:0 28px 80px -30px #1c294a66,inset 0 1px 0 #fff}
+.login-country{display:flex;gap:10px;align-items:center;margin:-8px 0 24px;padding:0 0 18px;border-bottom:1px solid #ffffffae;color:#192d4a}.login-country>span:last-child{font-size:12px;margin-left:auto;color:#5c5975}.indonesia-flag{width:32px;height:22px;flex:none;background:linear-gradient(#d43840 50%,#fff 50%);border-radius:3px;box-shadow:0 1px 6px #192d4a20;border:1px solid #ffffffaa}
+.login-story{position:relative}.mosquito-scene{position:absolute;width:210px;right:-20px;top:-150px;pointer-events:none;opacity:.8}.mosquito-scene img{width:100%;height:auto}.login-form-card input,.login-form-card select{background:#ffffff88}.login-story h1{color:#192d4a}.login-mini-map{background-color:#ead3c5}.login-form-card .primary{background:#b73540}
+@media(max-width:850px){.mosquito-scene{width:145px;top:-105px;right:0}.login-country{flex-wrap:wrap}.login-country>span:last-child{margin-left:0}}
+@media(max-width:600px){.login-screen{background-size:auto 100%;background-position:40% center;background-image:linear-gradient(#f3f0f5ab,#f3f0f575),url('assets/login-asean-background.png')}.mosquito-scene{right:0;top:-10px;width:100px;opacity:.5}.login-story h1{padding-right:70px}}
