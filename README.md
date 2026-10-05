@@ -28,3 +28,13 @@ Country selection supports ASEAN workspaces; Indonesia/Jakarta is implemented. O
 ## Street map upgrade
 
 The risk explorer now uses Leaflet 1.9.4 with OpenStreetMap street tiles and visible attribution. It requires an internet connection. Markers are positioned at approximate neighbourhood locations; coloured circles are simulated overlays, not administrative boundaries or live risk data. Layers, area selection, pan/zoom and reset controls are interactive. No user reports or health information are sent to the map provider.
+
+## Published app
+
+- Production: https://dengue-sense-beryl.vercel.app
+- Source: https://github.com/bellamarbellaa/dengue-sense (private)
+- Vercel project: https://vercel.com/finto-payment-app/dengue-sense
+
+Vercel is connected to GitHub; pushes to main deploy production. No build step; project root and output directory are the repository root. Run `node --check` on changed JavaScript before pushing. Reports, alerts and checklist state remain browser-local.
+
+Today, 7-day and 14-day map views use a deterministic demo scenario with sample temperature, rainfall and population-density inputs. The method is available inside the map panel; values are illustrative, not validated forecasts.
