@@ -21,3 +21,11 @@
 .login-form-card .primary{box-shadow:0 8px 18px -10px #9d273e80}.login-disclosure{line-height:1.7}
 @supports not (backdrop-filter:blur(1px)){.login-form-card,.spread-card{background:#f8f9fd}}
 @media(max-width:600px){.login-screen::before{width:280px;height:280px;right:-90px}.login-form-card{border-radius:22px}.login-screen::after{left:-80px;width:350px;height:350px}}
+
+/* Community-health illustration inspired by Bella's supplied reference. */
+.login-screen{background:#d8e3e2;background-image:linear-gradient(90deg,#f3f6f2a8 0%,#f3f6f244 48%,#eef2ef28 100%),url('assets/login-community-background.png');background-size:cover;background-position:center;background-attachment:fixed}
+.login-screen::before,.login-screen::after{display:none}
+.login-story h1{color:#162c45;text-shadow:0 1px 10px #ffffff50}.login-story>p{color:#253e51;max-width:37ch}
+.login-form-card{background:linear-gradient(145deg,#ffffffb8,#ffffff85);backdrop-filter:blur(22px) saturate(110%);-webkit-backdrop-filter:blur(22px) saturate(110%)}
+.login-brand>span{color:#253e51}.spread-card{background:linear-gradient(145deg,#ffffffd4,#ffffffa6)}
+@media(max-width:600px){.login-screen{background-position:40% center;background-attachment:scroll;background-image:linear-gradient(#f3f6f2a8,#f3f6f278),url('assets/login-community-background.png')}}
