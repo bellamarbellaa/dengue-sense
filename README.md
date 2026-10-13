@@ -4,7 +4,9 @@
 
 Built by **Team Nyamuk Hunter** for ASEAN Data Science Explorers 2026, DengueSense demonstrates how forecasts, geographic risk information, preparedness guidance and community observations can support earlier local action.
 
-**[Explore the live prototype](https://dengue-sense-beryl.vercel.app)** · [Interactive risk map](https://dengue-sense-beryl.vercel.app/#visualize)
+**[Explore the live prototype](https://dengue-sense-beryl.vercel.app/)**
+
+https://dengue-sense-beryl.vercel.app/
 
 ## What you can explore
 
